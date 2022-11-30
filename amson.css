@@ -1,0 +1,168 @@
+#navbar{
+    height: 70px;
+}
+#logo{
+    height: 50px;
+    width: 200px;
+    padding-top:10px;
+    padding-left:18px;
+}
+.list{
+    list-style-type: none;
+    display:flex;
+    justify-content: end; 
+    position: relative;
+    bottom: 55px;
+    right:100px;
+    letter-spacing:2px;
+}
+li{
+    margin:1px 8px;
+    font-size: 13px;
+}
+.lastList{
+   left:80px;
+   margin-left:80px;
+   bottom:40px;
+   border-radius: 30px;
+   height:40px;
+   width:150px;
+   color:white;
+   background-color:green;
+   border-style: none;
+   font-weight: 40px;
+}
+#box2{
+    height:320px;
+    background: url(https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-medical-medicine-concept-107863902.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.centerText{
+    background-color: rgba(29, 129, 29, 0.89);
+    color:white;
+    border-radius: 150px;
+    padding-left: 15px;
+    padding-top:55px;
+    display:inline-block;
+    height: 180px;
+    width:270px;
+    margin-left: 150px;
+    margin-top:50px;
+}
+
+#box3{
+    height:550px;
+   
+   
+}
+.txt2{
+    text-align: center;
+    color:green;
+    font-size: 40px;
+}
+.gridcontainer{
+    display:grid;
+    grid-template-rows:auto auto;
+    grid-template-columns:auto auto ;
+    padding:5px;
+    column-gap: 10px;
+    row-gap: 3px;
+}
+.content{
+ 
+    width:600px;
+    height:120px;
+ 
+}
+.content2{
+    width:600px;
+    height: 150px;
+    margin-left: 90px;
+    padding-bottom:30px;
+    padding-left:4px;
+    font-size: 14px;
+  
+   
+}
+.imgsmallcontent{
+    height:100px;  
+}
+.imgsmall1{
+    height:180px;
+    width:150px;
+    padding-left:5px;
+    /* top-left top-right bottom-right bottom-left */ 
+   border-radius: 0px 20px 20px 20px;
+}
+.imgsmall2{
+    height:140px;
+    width:100px; 
+    margin-left:10px;
+    border-radius: 25px 0px 25px 25px;
+}
+.imgsmall3{
+    height:120px;
+    width:80px; 
+    margin-left:30px;
+    margin-top:40px;
+    border-radius: 20px 20px 0px 20px;
+}
+.gridimg{
+    height:100px;
+}
+.services{
+    height:500px;
+    background-color: rgb(50, 126, 83);
+}
+.txt3{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+.gridcontainer2{
+    display:grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows: 280px 280px 280px;
+    column-gap:35px;
+    justify-content: center;
+    
+     
+}
+.gimg1{
+    background:url(https://images.unsplash.com/photo-1579684453423-f84349ef60b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY3fHxob3NwaXRhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 0px 25px 25px 25px;
+}
+
+.gimg2{
+    background:url(https://plus.unsplash.com/premium_photo-1658506951041-c407101156b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGhvc3BpdGFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 0px 25px 25px 25px;
+}
+.gimg3{
+    background: url(https://plus.unsplash.com/premium_photo-1658506885664-d6e51ce6ff72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk1fHxob3NwaXRhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 0px 30px 30px 30px;
+}
+h5{
+    padding-top:134px;
+    text-align: center;
+    height:5px;
+}
+h6{
+    text-align: center;
+    height:5px;
+}
+/* .viewButton{
+    height:20px; 
+     width:60px;
+    color:green;
+    border:1px solid green;
+} */
